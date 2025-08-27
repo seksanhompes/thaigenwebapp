@@ -87,7 +87,7 @@ export default function App() {
     if (composeKind==='text') fd.append('text', composeText);
     if ((composeKind==='image' || composeKind==='video') && composeFile) fd.append('file', composeFile);
     setBusy(true);
-    const res = await fetch('/api/upload', { method: 'POST', body: fd });
+    const res = await fetch('/api/uploads', { method: 'POST', body: fd });
     const j = await res.json();
     setBusy(false);
     if (j.ok) {

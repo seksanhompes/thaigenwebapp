@@ -122,7 +122,7 @@ export default function App() {
           <div className="flex justify-end">
             <button onClick={()=>setDropdown(x=>!x)} aria-label="menu" className="rounded-xl border p-2 hover:bg-neutral-50">
               <svg viewBox="0 0 24 24" className="icon" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-                <path dName="M4 6h16M4 12h16M4 18h16" d="M4 6h16M4 12h16M4 18h16"></path>
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             </button>
           </div>
